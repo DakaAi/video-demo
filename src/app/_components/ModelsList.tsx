@@ -38,10 +38,7 @@ function ModelsList({ className, ...props }: ModelsListProps) {
             {model.name}
           </h3>
           <div className="h-1 flex-1 relative aspect-square ">
-            <img
-              src={uploadsUrl + model.icon}
-              className="object-contain w-full h-full"
-            />
+            <img src={model.icon} className="object-contain w-full h-full" />
           </div>
         </div>
       ))}
