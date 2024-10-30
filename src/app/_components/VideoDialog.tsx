@@ -24,7 +24,7 @@ export default function VideoDialog() {
         }
       }}
     >
-      <DialogContent className=" backdrop-blur-sm bg-[#000e18]/50 max-w-screen-lg max-h-[90vh] aspect-video flex flex-col">
+      <DialogContent className=" backdrop-blur-sm bg-[#000e18]/50 max-w-screen-lg max-h-[90vh] aspect-square md:aspect-video flex flex-col p-4 md:p-6">
         <DialogTitle className="text-lg font-semibold">{name}</DialogTitle>
         <DialogDescription className={"hidden"}>{error}</DialogDescription>
         {videoUrl ? (
