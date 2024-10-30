@@ -1,6 +1,6 @@
 export const uploadsUrl = "https://dev.api.dakaai.io/uploads/";
 
-export const title = "Demo AI models";
+export const title = "AI models";
 
 // 'Abandoned object.svg'    'Running detection.svg'
 // 'Abandoned object2.svg'    Station.svg
