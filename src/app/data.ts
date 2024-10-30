@@ -92,7 +92,7 @@ export const models = [
     name: "Smart fuel station",
     icon: "icons/Station.svg",
     description: null,
-    videoUrl: "videos/Station.mp4", // TODO: update video
+    videoUrl: "videos/Counting Station Entre Station V6-1.mp4", // TODO: update video
   },
   {
     id: "13",
