@@ -20,7 +20,7 @@ export const models = [
   },
   {
     id: "2",
-    name: "Counting",
+    name: "People counting",
     icon: "icons/People counting.svg",
     videoUrl: "videos/Counting.mp4",
   },
@@ -46,14 +46,14 @@ export const models = [
     description: null,
     videoUrl: "videos/Motion1.mp4",
   },
-  {
-    id: "6",
-    // name: "namee_age_gender",
-    name: "Age and gender detection",
-    icon: "icons/Age detection.svg",
-    description: null,
-    videoUrl: "videos/namee_age_gender.mp4",
-  },
+  // {
+  //   id: "6",
+  //   // name: "namee_age_gender",
+  //   name: "Age and gender detection",
+  //   icon: "icons/Age detection.svg",
+  //   description: null,
+  //   videoUrl: "videos/namee_age_gender.mp4",
+  // },
   {
     id: "7",
     // name: "Objet Abandonne",
@@ -65,26 +65,26 @@ export const models = [
   {
     id: "8",
     // name: "Output Video Blue 1 Tracking",
-    name: "Vehicle tracking 1",
+    name: "Vehicle tracking and counting",
     icon: "icons/Vehicle counting.svg",
     description: null,
     videoUrl: "videos/Output Video Blue 1 Tracking.mp4",
   },
-  {
-    id: "9",
-    // name: "output_video_blue_1_tracking_t",
-    name: "Vehicle tracking 2",
-    icon: "icons/Vehicle counting.svg",
-    description: null,
-    videoUrl: "videos/output_video_blue_1_tracking_t.mp4",
-  },
+  // {
+  //   id: "9",
+  //   // name: "output_video_blue_1_tracking_t",
+  //   name: "Vehicle tracking 2",
+  //   icon: "icons/Vehicle counting.svg",
+  //   description: null,
+  //   videoUrl: "videos/output_video_blue_1_tracking_t.mp4",
+  // },
   {
     id: "10",
     // name: "Running",
     name: "Running detection",
     icon: "icons/Running detection.svg",
     description: null,
-    videoUrl: "videos/Running.mp4",
+    videoUrl: "videos/Running Segment.mp4", // TODO: update video
   },
   {
     id: "12",
@@ -92,11 +92,11 @@ export const models = [
     name: "Station Vehicle Counting",
     icon: "icons/Station.svg",
     description: null,
-    videoUrl: "videos/Station.mp4",
+    videoUrl: "videos/Station.mp4", // TODO: update video
   },
   {
     id: "13",
-    name: "Tramway",
+    name: "Tram driver assistance",
     icon: "icons/Tramway.svg",
     description: null,
     videoUrl: "videos/Tramway.mp4",
