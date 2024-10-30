@@ -65,7 +65,7 @@ export const models = [
   {
     id: "8",
     // name: "Output Video Blue 1 Tracking",
-    name: "Vehicle tracking and counting",
+    name: "hightway Vehicle counting",
     icon: "icons/Vehicle counting.svg",
     description: null,
     videoUrl: "videos/Output Video Blue 1 Tracking.mp4",
@@ -84,7 +84,7 @@ export const models = [
     name: "Running detection",
     icon: "icons/Running detection.svg",
     description: null,
-    videoUrl: "videos/Running Segment.mp4", // TODO: update video
+    videoUrl: "videos/Running Segment.mp4",
   },
   {
     id: "12",
